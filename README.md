@@ -31,15 +31,17 @@ where you need to replace 'domain.com' with your actual domain and 'd' with the 
 
 6. If this does not work delete .bashrc and do 3,4 & 5 again (if there is an existing .bashrc file it sometimes fails)
 
-#Daily Updates Script
+# Daily Updates Script
 
 wpcli.sh
+resides in the root needs to be executable CHMOD to 
 
-#Weekly Database Optimisation
+# Weekly Database Optimisation
 
 wp-db-optimise.sh
+resides in root needs to be executable CHMOD to 
 
-#CRONTAB
+# CRONTAB
 
 In the Tsohost control panel navigate to Advanced management Tools, Cron Jobs
 then select Advanced Mode
@@ -51,3 +53,14 @@ MAILTO="your@email.adress"
 0 1 * * 0 /bin/bash /var/sites/y/yourdomain.co.uk/wp-db-optimise.sh
 
 Updates will run daily at midnight and database optimisation weekly on sunday at 1am
+
+#Testing
+
+To test that these scripts run OK SSH into your site and sun the script manually buy using 
+
+./wpcli.sh
+and
+./wp-db-optimise.sh
+
+#Day to Day
+Keep an eye on the emails that are sent from the CRONJOB and look for errors and check the operation of the site, just in case an update breaks it. if it does look at the email of the update plugins and log in by SSH and wp plugin nameofplugin --disable
