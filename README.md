@@ -66,4 +66,7 @@ and
 ```
 
 # Day to Day
-Keep an eye on the emails that are sent from the CRONJOB and look for errors and check the operation of the site, just in case an update breaks it. if it does look at the email of the update plugins and log in by SSH and wp plugin nameofplugin --disable
+Keep an eye on the emails that are sent from the CRONJOB and look for errors and check the operation of the site, just in case an update breaks it. if it does look at the email of the update plugins and log in by SSH and 
+```
+wp plugin nameofplugin --disable
+```
