@@ -42,12 +42,12 @@ wp --info
 # Daily Updates Script
 
 wpcli.sh
-resides in the root needs to be executable CHMOD to 
+resides in the root needs to be executable
 
 # Weekly Database Optimisation
 
 wp-db-optimise.sh
-resides in root needs to be executable CHMOD to 
+resides in root needs to be executable 
 
 # CRONTAB
 
