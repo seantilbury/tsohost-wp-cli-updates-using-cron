@@ -10,6 +10,9 @@ todo - (in no particular order)
 Visual Regression Testing (if possible)
 Backup to Dropbox
 
+Using git clone from the comand line to automatically add the files
+
+git clone https://github.com/seantilbury/tsohost-wp-cli-updates-using-cron /var/sites/y/youdomain.co.uk/public_html/
 
 # Installing WP-CLI 
 
