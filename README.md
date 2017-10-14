@@ -11,9 +11,9 @@ Visual Regression Testing (if possible)
 Backup to Dropbox
 
 Using git clone from the comand line to automatically add the files
-
+```
 git clone https://github.com/seantilbury/tsohost-wp-cli-updates-using-cron /var/sites/y/youdomain.co.uk/public_html/
-
+```
 # Installing WP-CLI 
 
 1. SSH into your Cloud. If you haven't enabled your Shell Access you can do it from the tool in your Cloud control panel.
