@@ -1,4 +1,4 @@
 # Ignores Readme #
 ###################
-*.md
-*.bashrc
+readme.md
+.bashrc
