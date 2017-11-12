@@ -49,12 +49,18 @@ wp --info
 # Daily Updates Script
 
 wpcli.sh
-resides in the root needs to be executable
+resides in the root needs to be executable 
+```
+chmod +x wpcli.sh
+```
 
 # Weekly Database Optimisation
 
 wp-db-optimise.sh
 resides in root needs to be executable 
+```
+chmod +x wp-db-optimise.sh
+```
 
 # CRONTAB
 
