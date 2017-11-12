@@ -30,9 +30,9 @@ In order to check if it's working on the Cloud you need to run the following com
 3. Now you should create an alias of /usr/bin/php-5.6-cli wp-cli.phar so you could run it by typing wp only.
 Run the following command:
 ```
-echo "alias wp='/usr/bin/php-5.6-cli /var/sites/y/yourdomain.co.uk/wp-cli.phar'" >> .bashrc  
+echo "alias wp='/usr/bin/php-5.6-cli ./wp-cli.phar'" >> .bashrc  
 ```
-where you need to replace 'youdomain.co.uk' with your actual domain and 'y' with the first letter of the domain.
+
 
 4. Run: source .bashrc
 
