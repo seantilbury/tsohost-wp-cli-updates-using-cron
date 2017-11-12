@@ -34,7 +34,10 @@ echo -e "alias wp='/usr/bin/php-5.6-cli ./wp-cli.phar'" >> .bashrc
 ```
 
 
-4. Run: source .bashrc
+4. Run: 
+```
+source .bashrc
+```
 
 5. Now you can test if its working again using: 
 ```
