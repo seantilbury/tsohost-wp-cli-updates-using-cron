@@ -2,7 +2,7 @@
 
 # Updating Wordpress Automatically using WP-CLI and Cron
 
-TSOHOST Cloud Hosting system uses a slight different system to run WP-CLI from shell scripts and then parsing the output from these scripts to email you on completion
+The TSOHOST Gridhost Cloud Hosting system uses a slight different system to run WP-CLI from shell scripts and then parsing the output from these scripts to email you on completion
 
 I've compiled this as a reference as it is not in their knowledgebase articles and intend to add to this as I add new features
 
