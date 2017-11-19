@@ -45,6 +45,13 @@ wp --info
 ```
 
 6. If this does not work delete .bashrc and do 3,4 & 5 again (if there is an existing .bashrc file it sometimes fails)
+# Setting Defaults for WP-CLI on Gridhost based WordPress installs
+
+wp-cli.yml
+'''
+Path : public_html
+'''
+this is the default (publicly accessable) root directory on the gridhost system all other installations will be subdirectories of this
 
 # Daily Updates Script
 
