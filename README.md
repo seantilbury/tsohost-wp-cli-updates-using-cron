@@ -50,7 +50,7 @@ wp --info
 wp-cli.yml (this file is loaded when the bash shell is run to set the defaults) ****check this works when called from CRONTAB****
 
 ```
-path : /public_html
+path : public_html/
 ```
 this is the default (publicly accessable) root directory on the gridhost system all other installations will be subdirectories of this
 
