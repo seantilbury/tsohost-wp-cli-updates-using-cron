@@ -54,12 +54,16 @@ path : public_html/
 ```
 this is the default (publicly accessable) root directory on the gridhost system all other installations will be subdirectories of this
 
-# Daily Updates Script
+# Daily Updates Scripts
 
-wpcli.sh
-resides in the root needs to be executable 
+plugin-update.sh
+theme-update.sh
+update-core.sh
+core-checksums.sh
+wp-cli-update.sh
+all reside in the root and they need to be executable, do this using
 ```
-chmod +x wpcli.sh
+chmod +x filename.sh
 ```
 
 # Weekly Database Optimisation
