@@ -76,12 +76,18 @@ In the Tsohost control panel navigate to Advanced management Tools, Cron Jobs
 then select Advanced Mode
 add
 ```
-MAILTO="your@email.adress"
+MAILTO="your@email.address"
 # # # # # #
-0 0 * * * /bin/bash /var/sites/y/yourdomain.co.uk/wpcli.sh
-0 1 * * 0 /bin/bash /var/sites/y/yourdomain.co.uk/wp-db-optimise.sh
+0 2 * * * /bin/bash /var/sites/y/yourwebsite.co.uk/plugin-update.sh
+10 2 * * * /bin/bash /var/sites/y/yourwebsite.co.uk/theme-update.sh
+20 2 * * * /bin/bash /var/sites/y/yourwebsite.co.uk/verify-core.sh
+30 2 * * * /bin/bash /var/sites/y/yourwebsite.co.uk/wp-cli-update.sh
+0 1 * * 0 /bin/bash /var/sites/y/yourwebsite.co.uk/wp-db-optimise.sh
 ```
+<!---
 Updates will run daily at midnight and database optimisation weekly on sunday at 1am
+-->
+changed to run staggered after 2am to see if this affects timeouts
 
 # Testing Scripts
 
