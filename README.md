@@ -65,6 +65,10 @@ all reside in the root and they need to be executable, do this using
 ```
 chmod +x filename.sh
 ```
+when running from cron include the following to the alias to load a php.ini for phar
+```
+wp="/usr/bin/php-5.6-cli -c ./php.ini ./wp-cli.phar"
+```
 
 # Weekly Database Optimisation
 
