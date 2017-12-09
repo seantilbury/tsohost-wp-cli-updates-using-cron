@@ -1,0 +1,8 @@
+
+#!/bin/bash
+
+# set path to wpcli #
+wp="/usr/bin/php-5.6-cli -c ./php.ini ./wp-cli.phar"
+
+# Create db backup with name as time/date #
+${wp} db export - | gzip > ./db_backup-$(date +%Y-%m-%d-%H%M%S).sql.gz
