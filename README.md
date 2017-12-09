@@ -78,6 +78,11 @@ resides in root needs to be executable
 chmod +x wp-db-optimise.sh
 ```
 
+# BACKUPS
+
+wp db export - | gzip > ./db_backup-$(date +%Y-%m-%d-%H%M%S).sql.gz
+
+
 # CRONTAB
 
 In the Tsohost control panel navigate to Advanced management Tools, Cron Jobs
