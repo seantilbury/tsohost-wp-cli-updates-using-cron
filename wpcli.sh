@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# set path to wpcli #
+# set path to wpcli ***check PHP version*** #
 wp="/usr/bin/php-5.6-cli ./wp-cli.phar"
 
 # update all plugins #
