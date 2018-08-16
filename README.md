@@ -1,5 +1,7 @@
 # tsohost-wp-cli-updates-using-cron
 
+  # important where php version is in code make sure it matches php version set in control panel or you will get errors
+
 # Updating Wordpress Automatically using WP-CLI and Cron
 
 The TSOHOST Gridhost Cloud Hosting system uses a slight different system to run WP-CLI from shell scripts and then parsing the output from these scripts to email you on completion
