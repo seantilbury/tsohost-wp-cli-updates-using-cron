@@ -1,6 +1,6 @@
 # tsohost-wp-cli-updates-using-cron
 
-  # important where php version is in code make sure it matches php version set in control panel or you will get errors
+  !! important where php version is in code make sure it matches php version set in control panel or you will get errors
 
 # Updating Wordpress Automatically using WP-CLI and Cron
 
